@@ -1,21 +1,27 @@
 # Artix
-This project is built using React with Vite, ensuring fast Hot Module Replacement (HMR) and a minimal setup. The frontend is styled with Tailwind CSS and manages application state using Redux Toolkit and React Redux. The backend is powered by Node.js and MongoDB, providing a scalable and efficient API and database management system.
+Artix is an art e-commerce platform designed to offer a wide range of art products including paintings, sculptures, and other artworks. The platform also provides users the ability to purchase tickets for art exhibitions.
 
 ## My Contributions:
-- Implemented Redux throughout the entire app for effective state management.
-- Developed multiple core pages with responsive, mobile-friendly designs using Tailwind CSS.
-- Integrated Redux Thunks to handle asynchronous operations like API calls to the backend for CRUD functionality.
-- Created and managed Redux Slices for user authentication, product management, and cart functionality.
+- Implemented Redux throughout the entire app for seamless state management.
+- Developed multiple core pages with responsive, mobile-friendly designs using Tailwind CSS and Material Tailwind, ensuring a great user experience across all screen sizes.
+- Integrated Redux Thunks to handle asynchronous operations, such as API calls to the backend for CRUD functionality (Create, Read, Update, Delete).
+- Created and managed Redux Slices to handle user authentication, product inventory, and cart functionality.
+
+## Frontend Overview:
+- Created with React.js, providing a dynamic and interactive user interface.
+- Used Redux Toolkit and React Redux for managing state across the app, ensuring a predictable state container.
+- Integrated React Hook Form with Yup for efficient form handling and validation.
+- Utilized Axios for making API calls, enabling smooth communication between the frontend and backend.
+- Styled using Tailwind CSS and Material Tailwind, achieving responsive designs across all screens and ensuring a consistent and visually appealing user experience.
 
 ## Backend Overview:
-- Built the backend using Node.js and Express.js for the server, ensuring a scalable and efficient API.
-- Used MongoDB as the database to manage data related to users, products, and orders.
-- Developed several RESTful API endpoints for handling requests such as product fetching, user authentication, and order management.
-- Implemented JWT-based authentication for secure login and protected routes.
+- Built the backend using Node.js and Express.js, ensuring a scalable and efficient API.
+- Utilized MongoDB to manage data related to users, art products, orders, and ticket bookings.
+- Developed several RESTful API endpoints to handle various operations, including product fetching, user authentication, and order/ticket management.
+- Integrated JWT-based authentication to secure login processes and protect sensitive routes within the application.
 
-- 
-Vite Plugins:
-We used the following official Vite plugins for optimizing the React app:
+## Vite Plugins:
+To optimize the performance of the React app, we used the following official Vite plugins:
 
-- @vitejs/plugin-react for Babel-based Fast Refresh.
-- @vitejs/plugin-react-swc as an alternative for SWC-based Fast Refresh.
+@vitejs/plugin-react for Babel-based Fast Refresh, ensuring quick development cycles.
+@vitejs/plugin-react-swc as an alternative for SWC-based Fast Refresh, providing an even faster development experience.
